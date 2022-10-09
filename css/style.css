@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06A3DA;
+    --primary: #0093db;
     --secondary: #34AD54;
     --light: #EEF9FF;
-    --dark: #091E3E;
+    --dark: #000;
 }
 
 
@@ -485,8 +485,8 @@ h6,
     padding-left: 10px;
 }
 
-@media (min-width: 767.98px) {
-    .footer-about {
+@media (min-width: 900px) {
+    .footer-about {   
         margin-bottom: -75px;
     }
 }
@@ -737,6 +737,7 @@ h6,
 .ftr-bottom{
     padding-right: 70px;
     margin-right: 80px;
+    padding-bottom: 10px;
 }
 @media (min-width: 990px) {
    .footer-about {
@@ -753,7 +754,7 @@ h6,
 /* service page styling start */
 
 .section{
-    background: linear-gradient(120deg, #98bcc8 0%, #98bcc8 50%, #729096 50%, #729096 50%, #729096 100%);
+    background: #0093db ;
     padding-top: 50px;
     color: #FFFFFF;
     padding-bottom: 50px;
@@ -1078,7 +1079,7 @@ product page started
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #06A3DA;
+  color: #0093db;
 }
 
 #hero .icon-box h3 {
@@ -1102,11 +1103,11 @@ product page started
 }
 
 #hero .icon-box h3 a:hover {
-  color: #06A3DA;
+  color: #0093db;
 }
 
 #hero .icon-box:hover {
-  border-color: #06A3DA;
+  border-color: #0093db;
 }
 
 @media (min-width: 1024px) {
@@ -1143,7 +1144,7 @@ product page started
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #06a3da;
+  color: #0093db;
 }
 
 .features .icon-box p {
